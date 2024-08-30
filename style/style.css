@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  margin-bottom: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 3%;
+
+  border-bottom: 4px double #121212;
+}
+
+/*FIRST HEADER ROW*/
+.first-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.header-language {
+  margin-left: 250px;
+}
+
+.header-language a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.header-btn button {
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  transition: 0.6s;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  height: 26px;
+  color: rgb(255, 255, 255);
+}
+
+/*HEADER MIDDLE SECTION*/
+
+.header-middle-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.date p {
+  font-size: 0.875rem;
+}
+
+.logo-section {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.logo-section img {
+  width: 500px;
+  padding: 10px 0;
+}
+
+.trade-header-section {
+  display: flex;
+  align-items: center;
+
+  font-size: 0.875rem;
+}
+
+.trade-header-section p {
+  margin-left: 10px;
+}
+
+.trade-up {
+  color: #04e753;
+}
+
+/*HEADER NAV*/
+.nav-section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+.nav-section ul {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 1rem 12px;
+  gap: 5px;
+  font-size: 0.875rem;
+  color: #121212;
+}
+
+.fa-chevron-down {
+  font-size: 10px;
+}
+
+.divider {
+  padding: 0 10px;
+  color: #979797;
+}
